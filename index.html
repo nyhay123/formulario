@@ -1,0 +1,68 @@
+<!DOCTYPE htinput type="number" name="endereco" ml>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>cadastro</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='formulario.css'>
+    <script src='formulario.js'></script>
+</head>
+
+<body>
+    <div class="container col-4">
+        <h3> cadastro </h3>
+        <form class="form-control">
+            <p> <label>Nome</label><br>
+                <input type="text" id="name" placeholder="Digite seu nome" class="form-control" required />
+                <br>
+                <label for="telefone">Celular</label><br>
+                <input type="tel" name="telefone" id="telefone" placeholder="99-99999-9999" />
+                <br>
+                <label for="cpf">cpf</label><br>
+                <input type="number" name="cpf" id="cpf" placeholder="999.999.999-99" />
+                <br>
+            </p>
+            <p>
+                <label for="estado">Estado</label><br>
+                <input type="text" name="estado" id="estado" placeholder="digite seu estado">
+            </p>
+            <p>
+                <label for="cidade">Cidade</label><br>
+                <input type="text" name="cidade" id="cidade" placeholder="digite sua cidade">
+            </p>
+
+            <p>
+
+                <label for="numero"> Numero</label><br>
+
+                <input type="number" id="numero" placeholder="digite o numero da sua casa"> <br>
+            </p>
+            <p> <label for="rua">Rua</label><br>
+
+                <input type="text" name="rua" id="rua" placeholder="digite o nome da sua rua"><br>
+            </p>
+            <p>
+                <label for="cep">cep</label><br>
+                <input type="text" name="cep" id="cep" placeholder="digite seu cep"></input>
+
+            </p>
+            <p> <label for=email>email</label><br>
+                <input type="email" id="email" placeholder="Digite seu email" class="form-control" required />
+            </p>
+            <p>
+                <label for="subject">Senha</label><br>
+                <input type="password" id="senha" placeholder="digite sua  senha"><br>
+                <label for="subject">confirmar senha</label><br>
+
+                <input type="password" id="senha2" placeholder="confirmar senha"><br>
+            </p>
+
+            <button onclick="Verificar()" type="button" class="btn btn-warning">cadastrar</button><br>
+        </form>
+    </div>
+
+</body>
+
+</html>
